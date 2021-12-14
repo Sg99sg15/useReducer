@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    width: 100%;
+    height: 100vh;
+    background-color: burlywood;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.box > h1{
+    font-size: 4rem;
+    text-shadow: 3px 3px 10px black;
+}
+.button > button{
+    padding: 10px;
+    margin: 15px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 12px;
+}
+.button > button:nth-child(1){
+    color: green;
+    border: 2px solid green;
+    box-shadow: 1px 1px 7px green, -1px -1px 7px green;
+}
+.button > button:nth-child(1):hover{
+    color: white;
+    background-color: green;
+}
+.button > button:nth-child(2){
+    color: red;
+    box-shadow: 1px 1px 7px red, -1px -1px 7px red;
+    border: 2px solid red;
+}
+.button > button:nth-child(2):hover{
+    color: white;
+    background-color: red;
+}
